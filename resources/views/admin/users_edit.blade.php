@@ -180,7 +180,13 @@
                 </div>
                 <div class="form-group">
                     <label for="user_type">User Type:</label>
-                    <textarea class="form-control" id="user_type" name="user_type">{{ $datas->user_type }}</textarea>
+                    <select class="form-control" id="user_type" name="user_type">
+                       <option></option>
+                       <option>admin</option>
+                       <option>user</option>
+                       <option>author</option>
+                     </select>
+                    {{-- <textarea class="form-control" id="user_type" name="user_type">{{ $datas->user_type }}</textarea> --}}
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-md btn-primary">Submit</button>
