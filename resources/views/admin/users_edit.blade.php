@@ -171,8 +171,8 @@
                 {{ csrf_field() }}
                 {{ method_field('PUT') }}
                 <div class="form-group">
-                    <label for="nama">Name:</label>
-                    <input type="text" class="form-control" id="usr" name="nama" value="{{ $datas->name }}">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" value="{{ $datas->name }}">
                 </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
